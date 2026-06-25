@@ -1,0 +1,357 @@
+
+> jwt-react@0.1.0 start
+> react-scripts start
+
+Starting the development server...
+
+Failed to compile.
+
+[eslint] 
+src\pages\auth\signup\SignUp.jsx
+Syntax error: Missing semicolon. (1:25) (1:25)
+[1m[31mERROR[39m[22m in [1m./src/pages/auth/signup/SignUp.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: F:\fullstack\jwt-react\src\pages\auth\signup\SignUp.jsx: Missing semicolon. (1:25)
+
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[36mimport[39m { [33mAlert[39m[33m,[39m [33mButton[39m[33m,[39m [33mForm[39m } [36mfrom[39m [32m'react-bootstrap'[39m[33m;[39m
+ [90m   |[39m                          [31m[1m^[22m[39m
+ [90m 2 |[39m [36mimport[39m { useState } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { useNavigate } [36mfrom[39m [32m'react-router-dom'[39m[33m;[39m
+ [90m 4 |[39m[0m
+    at constructor (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:365:19)
+    at FlowParserMixin.raise (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:6616:19)
+    at FlowParserMixin.semicolon (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:6912:10)
+    at FlowParserMixin.parseImportSourceAndAttributes (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:14270:10)
+    at FlowParserMixin.parseImportSpecifiersAndAfter (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:14261:17)
+    at FlowParserMixin.parseImport (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:14252:17)
+    at FlowParserMixin.parseStatementContent (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12893:27)
+    at FlowParserMixin.parseStatementLike (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12784:17)
+    at FlowParserMixin.parseStatementLike (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:2930:24)
+    at FlowParserMixin.parseModuleItem (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12761:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13333:36)
+    at FlowParserMixin.parseBlockBody (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13326:10)
+    at FlowParserMixin.parseProgram (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12639:10)
+    at FlowParserMixin.parseTopLevel (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12629:25)
+    at FlowParserMixin.parseTopLevel (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:3697:28)
+    at FlowParserMixin.parse (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:14505:25)
+    at parse (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:14539:38)
+    at parser (F:\fullstack\jwt-react\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (F:\fullstack\jwt-react\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+    at normalizeFile.next (<anonymous>)
+    at run (F:\fullstack\jwt-react\node_modules\@babel\core\lib\transformation\index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (F:\fullstack\jwt-react\node_modules\@babel\core\lib\transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (F:\fullstack\jwt-react\node_modules\gensync\index.js:261:32)
+    at F:\fullstack\jwt-react\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (F:\fullstack\jwt-react\node_modules\gensync\index.js:223:11)
+    at F:\fullstack\jwt-react\node_modules\gensync\index.js:189:28
+    at F:\fullstack\jwt-react\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+    at F:\fullstack\jwt-react\node_modules\gensync\index.js:113:33
+    at step (F:\fullstack\jwt-react\node_modules\gensync\index.js:287:14)
+    at F:\fullstack\jwt-react\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (F:\fullstack\jwt-react\node_modules\gensync\index.js:223:11)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\signup\SignUp.jsx
+  Line 1:25:  Parsing [1m[31merror[39m[22m[1m: Missing semicolon. (1:25)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Failed to compile.
+
+[eslint] 
+src\pages\auth\signup\SignUp.jsx
+Syntax error: Missing semicolon. (1:25) (1:25)
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m8:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/auth/signup/SignUp' in 'F:\fullstack\jwt-react\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\signup\SignUp.jsx
+  Line 1:25:  Parsing [1m[31merror[39m[22m[1m: Missing semicolon. (1:25)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\auth\login\Login.js
+Syntax error: Unexpected token (6:2) (6:2)
+[1m[31mERROR[39m[22m in [1m./src/pages/auth/login/Login.js[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: F:\fullstack\jwt-react\src\pages\auth\login\Login.js: Unexpected token (6:2)
+
+[0m [90m 4 |[39m   [36mreturn[39m (
+ [90m 5 |[39m     
+[31m[1m>[22m[39m[90m 6 |[39m   )
+ [90m   |[39m   [31m[1m^[22m[39m
+ [90m 7 |[39m }
+ [90m 8 |[39m
+ [90m 9 |[39m [36mexport[39m [36mdefault[39m [33mLogin[39m[0m
+    at constructor (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:365:19)
+    at FlowParserMixin.raise (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:6616:19)
+    at FlowParserMixin.unexpected (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:6636:16)
+    at FlowParserMixin.parseParenAndDistinguishExpression (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11709:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:3603:18)
+    at FlowParserMixin.parseExprAtom (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11348:23)
+    at FlowParserMixin.parseExprAtom (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10848:21)
+    at FlowParserMixin.parseMaybeAssign (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:3561:18)
+    at FlowParserMixin.parseExpressionBase (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10801:23)
+    at F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10797:39
+    at FlowParserMixin.allowInAnd (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12438:16)
+    at FlowParserMixin.parseExpression (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10797:17)
+    at FlowParserMixin.parseReturnStatement (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13159:28)
+    at FlowParserMixin.parseStatementContent (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12815:21)
+    at FlowParserMixin.parseStatementLike (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12784:17)
+    at FlowParserMixin.parseStatementLike (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:2930:24)
+    at FlowParserMixin.parseStatementListItem (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12764:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13333:61)
+    at FlowParserMixin.parseBlockBody (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13326:10)
+    at FlowParserMixin.parseBlock (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13314:10)
+    at FlowParserMixin.parseFunctionBody (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12117:24)
+    at F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:2904:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:3080:16)
+    at FlowParserMixin.parseFunctionBody (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:2904:12)
+    at FlowParserMixin.parseArrowExpression (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12092:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11704:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:3603:18)
+    at FlowParserMixin.parseExprAtom (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11348:23)
+    at FlowParserMixin.parseExprAtom (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10848:21)
+    at FlowParserMixin.parseMaybeAssign (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:3561:18)
+    at F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10817:39
+    at FlowParserMixin.allowInAnd (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12438:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:10817:17)
+    at FlowParserMixin.parseVar (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13401:91)
+    at FlowParserMixin.parseVarStatement (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:13247:10)
+    at FlowParserMixin.parseStatementContent (F:\fullstack\jwt-react\node_modules\@babel\parser\lib\index.js:12868:23)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\login\Login.js
+  Line 6:2:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (6:2)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 43:20:  'formData' is not defined           no-undef
+  Line 44:23:  'handleInputChange' is not defined  no-undef
+  Line 49:56:  'isSubmitting' is not defined       no-undef
+  Line 50:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each error.
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 43:20:  'formData' is not defined           no-undef
+  Line 44:23:  'handleInputChange' is not defined  no-undef
+  Line 49:56:  'isSubmitting' is not defined       no-undef
+  Line 50:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each [1m[31merror[39m[22m[1m.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 43:20:  'formData' is not defined           no-undef
+  Line 44:23:  'handleInputChange' is not defined  no-undef
+  Line 49:56:  'isSubmitting' is not defined       no-undef
+  Line 50:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each error.
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 43:20:  'formData' is not defined           no-undef
+  Line 44:23:  'handleInputChange' is not defined  no-undef
+  Line 49:56:  'isSubmitting' is not defined       no-undef
+  Line 50:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each [1m[31merror[39m[22m[1m.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 43:20:  'formData' is not defined           no-undef
+  Line 44:23:  'handleInputChange' is not defined  no-undef
+  Line 49:56:  'isSubmitting' is not defined       no-undef
+  Line 50:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each error.
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 43:20:  'formData' is not defined           no-undef
+  Line 44:23:  'handleInputChange' is not defined  no-undef
+  Line 49:56:  'isSubmitting' is not defined       no-undef
+  Line 50:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each [1m[31merror[39m[22m[1m.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 38:56:  'isSubmitting' is not defined       no-undef
+  Line 39:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each error.
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\login\Login.js
+  Line 8:53:   'handleSubmit' is not defined       no-undef
+  Line 11:10:  'errorMessage' is not defined       no-undef
+  Line 11:51:  'errorMessage' is not defined       no-undef
+  Line 19:20:  'formData' is not defined           no-undef
+  Line 20:23:  'handleInputChange' is not defined  no-undef
+  Line 31:20:  'formData' is not defined           no-undef
+  Line 32:23:  'handleInputChange' is not defined  no-undef
+  Line 38:56:  'isSubmitting' is not defined       no-undef
+  Line 39:12:  'isSubmitting' is not defined       no-undef
+
+Search for the keywords to learn more about each [1m[31merror[39m[22m[1m.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\auth\login\Login.js
+  Line 15:53:  'handleSubmit' is not defined       no-undef
+  Line 27:23:  'handleInputChange' is not defined  no-undef
+  Line 39:23:  'handleInputChange' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\auth\login\Login.js
+  Line 5:20:   'setFormData' is assigned a value but never used      no-unused-vars
+  Line 9:24:   'setIsSubmitting' is assigned a value but never used  no-unused-vars
+  Line 10:24:  'setErrorMessage' is assigned a value but never used  no-unused-vars
+
+[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\auth\login\Login.js
+  Line 15:53:  'handleSubmit' is not defined       no-undef
+  Line 27:23:  'handleInputChange' is not defined  no-undef
+  Line 39:23:  'handleInputChange' is not defined  no-undef
+
+Search for the keywords to learn more about each [1m[31merror[39m[22m[1m.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
