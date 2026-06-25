@@ -1,0 +1,18 @@
+[auth-debug] controller error: {
+  statusCode: 401,
+  name: 'Error',
+  message: 'Invalid email or password',
+  code: undefined
+}
+[auth-debug] controller error: {
+  statusCode: 401,
+  name: 'Error',
+  message: 'Invalid email or password',
+  code: undefined
+}
+[auth-debug] controller error: {
+  statusCode: 401,
+  name: 'Error',
+  message: 'Invalid email or password',
+  code: undefined
+}

@@ -1,0 +1,73 @@
+◇ injected env (2) from .env // tip: ⌘ override existing { override: true }
+Server is running on: http://localhost:5000
+MongoDB Connected
+Database: test
+Admin user already exists.
+[auth-debug] controller createUser inputs: {
+  body: {
+    email: 'port5000-token-check-3f6dfe882dda4379b442dc0bb268d933@test.com',
+    name: 'Port 5000 Token Check',
+    password: '[provided]'
+  },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service createUser input: {
+  email: 'port5000-token-check-3f6dfe882dda4379b442dc0bb268d933@test.com',
+  name: 'Port 5000 Token Check',
+  password: '[provided]'
+}
+[auth-debug] service model input: {
+  name: 'Port 5000 Token Check',
+  email: 'port5000-token-check-3f6dfe882dda4379b442dc0bb268d933@test.com',
+  password: '[provided]',
+  role: 'customer'
+}
+[auth-debug] controller loginUser inputs: {
+  body: {
+    password: '[provided]',
+    email: 'port5000-token-check-3f6dfe882dda4379b442dc0bb268d933@test.com'
+  },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service loginUser input: {
+  password: '[provided]',
+  email: 'port5000-token-check-3f6dfe882dda4379b442dc0bb268d933@test.com'
+}
+[auth-debug] controller loginUser inputs: {
+  body: { email: 'admin@test.com', password: '[provided]' },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service loginUser input: { email: 'admin@test.com', password: '[provided]' }
+[auth-debug] controller loginUser inputs: {
+  body: { email: 'admin@test.com', password: '[provided]', name: '' },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service loginUser input: { email: 'admin@test.com', password: '[provided]', name: '' }
+[auth-debug] controller loginUser inputs: {
+  body: { email: 'admin@test.com', password: '[provided]', name: '' },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service loginUser input: { email: 'admin@test.com', password: '[provided]', name: '' }
+[auth-debug] controller loginUser inputs: {
+  body: { email: 'admin@test.com', password: '[provided]', name: '' },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service loginUser input: { email: 'admin@test.com', password: '[provided]', name: '' }
+[auth-debug] controller loginUser inputs: {
+  body: { email: 'gowhar@gmail.com', password: '[provided]', name: '' },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service loginUser input: { email: 'gowhar@gmail.com', password: '[provided]', name: '' }
+[auth-debug] controller loginUser inputs: {
+  body: { email: 'gowhar@gmail.com', password: '[provided]', name: '' },
+  params: [Object: null prototype] {},
+  query: [Object: null prototype] {}
+}
+[auth-debug] service loginUser input: { email: 'gowhar@gmail.com', password: '[provided]', name: '' }
